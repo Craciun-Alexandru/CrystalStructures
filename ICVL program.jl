@@ -32,7 +32,7 @@ GaSbPosition = [
 
 crystalGaSb = Crystal("cubic", 0.3, GaSbPosition)
 
-fillMaterial(x, y, z) = !wettingLayer(x, y, z) && !coneQD2(x, y, z) && -3<=x<=3 && -3<=y<=3 && 0<=z<=2.5
+fillMaterial(x, y, z) = !wettingLayer(x, y, z) && !coneQD(x, y, z) && -3<=x<=3 && -3<=y<=3 && 0<=z<=2.5
 
 #3D part
 
