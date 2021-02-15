@@ -1,2 +1,2 @@
 # CrystalStructures
-Simple program to design and render crystall structures.
+Simple program to design and render crystal structures.
